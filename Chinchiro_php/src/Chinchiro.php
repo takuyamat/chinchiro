@@ -32,14 +32,12 @@ Class Chinchiro {
 
     //ダイスの合計値を返す
     public function sumDice() {
-        $this->rand;
         $sum = array_sum($this->rand);
         return $sum;
     }
 
     //3回振ったダイスの結果を表示する
     public function getDice() {
-        $this->rand;
         echo '<img alt="dice" src="../assets/dice',$this->rand[0],'.png" width="100" height="100">',
              '<img alt="dice" src="../assets/dice',$this->rand[1],'.png" width="100" height="100">',
              '<img alt="dice" src="../assets/dice',$this->rand[2],'.png" width="100" height="100">';   
